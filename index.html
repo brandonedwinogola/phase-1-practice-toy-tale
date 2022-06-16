@@ -1,51 +1,107 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>Toy Tale</title>
     <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="toy-header">
-      <img
-        src="https://fontmeme.com/permalink/180719/67429e6afec53d21d64643101c43f029.png"
-        alt="toy-header"
-      />
+        <img src="https://fontmeme.com/permalink/180719/67429e6afec53d21d64643101c43f029.png" alt="toy-header" />
     </div>
+
+
 
     <div class="container">
-      <form class="add-toy-form">
-        <h3>Create a toy!</h3>
+        <form class="add-toy-form">
+            <h3>Create a toy!</h3>
 
-        <input
-          type="text"
-          name="name"
-          value=""
-          placeholder="Enter a toy's name..."
-          class="input-text"
-        />
-        <br />
-        <input
-          type="text"
-          name="image"
-          value=""
-          placeholder="Enter a toy's image URL..."
-          class="input-text"
-        />
-        <br />
-        <input
-          type="submit"
-          name="submit"
-          value="Create Toy"
-          class="submit"
-        />
-      </form>
+            <input type="text" name="name" value="" placeholder="Enter a toy's name..." class="input-text" />
+            <br />
+            <input type="text" name="image" value="" placeholder="Enter a toy's image URL..." class="input-text" />
+            <br />
+            <input type="submit" name="submit" value="Create Toy" class="submit" />
+        </form>
     </div>
     <p style="text-align:center">
-      Andy needs your help! <button id="new-toy-btn">Add a new toy!</button>
+        Andy needs your help! <button id="new-toy-btn">Add a new toy!</button>
     </p>
+
+    <div class='card'>
+        <h2>Woody</h2>
+        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+
+        <img scr="[toy_image_url]" class="toy-avatar" />
+        <p>5 Likes</p>
+        <button class="like btn" id="[toy_id]">Like  ❤️</button>
+    </div>
+
+
+    <div class="card">
+        <h2>Buzz Lightyear</h2>
+        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+        <img scr="[toy_image_url]" class="toy-avartar" />
+        <p>8 Likes</p>
+        <button class="like btn" id="[toy_id]">Like ❤️</button>
+    </div>
+
+    <div class="card">
+        <h2>Mr Potato Head</h2>
+        "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
+        <img scr="[toy_image_url]" class="toy toy-avatar" />
+        <p>3 Likes</p>
+        <button class="like btn" id="[toy_id]">Like ❤️</button>
+
+
+
+    </div>
+
+    <div class="card">
+        <h2>Slinky Dog</h2>
+        "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
+        <img scr="[toy_image_url]" class="toy toy-avatar" />
+        <p>4 Likes</p>
+        <button class="like btn" id="[toy_id]">Like ❤️</button>
+    </div>
+
+    <div class="card">
+        <h2>Rex</h2>
+        "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
+        <p>1 Likes</p>
+        <button class="like btn" id="[toy_id]">Like ❤️</button>
+    </div>
+
+
+    <div class="card">
+        <h2>Bo Peep</h2>
+        "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
+        <p>2 Likes</p>
+        <button class="like btn" id="[toy_id]">Like ❤️</button>
+    </div>
+
+
+    <div class="card">
+        <h2>Hamm</h2>
+        "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
+        <p>0 Likes</p>
+        <button class="like btn" id="[toy_id]">Like ❤️</button>
+    </div>
+
+
+    <div class="card">
+        <h2>Little Green Men</h2>
+        "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
+        <p>1 Like</p>
+        <button class="like btn" id="[toy_id]">Like ❤️</button>
+    </div>
+
+
+
 
     <div id="toy-collection"></div>
     <script type="text/javascript" src="src/index.js"></script>
-  </body>
+</body>
+
 </html>
